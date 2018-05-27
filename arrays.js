@@ -3,6 +3,7 @@ function addElementToBeginningOfArray(array, element) {
   return [element, ...array]
 }
 function destructivelyAddElementToBeginningOfArray(array, element) {
+<<<<<<< HEAD
   array.unshift(element)
   return array
 }
@@ -29,4 +30,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length -1)
+=======
+  return array.upshift(element)
+>>>>>>> 5dc1888921ed5ad6955f39f1e8488cabf9a7d7bb
 }
